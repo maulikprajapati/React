@@ -31,6 +31,7 @@ var config = {
         contentBase: "./src",
         hot: true
     },
+    performance: { hints: false },
     plugins: [HtmlWebpackPluginConfig]
 };
 module.exports = config;
