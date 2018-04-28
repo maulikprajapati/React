@@ -17,6 +17,10 @@ var config = {
     module: {
         rules: [
             {
+                test: /\.css$/,
+                loader: 'style-loader!css-loader'
+            },
+            {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 use: "babel-loader"
